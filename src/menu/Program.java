@@ -5,17 +5,16 @@
  */
 package menu;
 
-/**
- *
- * @author Andross
- */
-public class Menu {
+public class Program {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void Program(String[] args) {
+        MainMenu mainMenu = new MainMenu();
+        mainMenu.CreateMenu();
     }
-    
+
 }
+
+
